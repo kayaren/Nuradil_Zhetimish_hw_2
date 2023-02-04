@@ -14,7 +14,7 @@ public class Main {
 
     }
     public static String wolk(int age, int temp) {
-        if (age > 20 && age < 45 && temp > -20 && temp > -45)
+        if (age > 20 && age < 45 && temp > -20 && temp > 30)
         return ("можно идти гулять");
 
         else if(age<20 && temp>0&& temp>28)
@@ -29,7 +29,7 @@ public class Main {
     }
 
     public static int generateRandomAge(){
-            int a = (int)(Math. random()*60);
+            int a = (int)(Math. random()*71);
             return a;
     }
 }
