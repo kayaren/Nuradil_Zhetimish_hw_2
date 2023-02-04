@@ -11,8 +11,8 @@ public class Main {
             System.out.println(wolk(45, 29));
             System.out.println(wolk(25, 27));
             System.out.println(generateRandomAge());
-            
 
+            // дз2
     }
     public static String wolk(int age, int temp) {
         if (age > 20 && age < 45 && temp > -20 && temp > -45)
