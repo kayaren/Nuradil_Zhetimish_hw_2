@@ -5,11 +5,12 @@ public class Main {
         public static void main(String[] args) {
 
 
-            System.out.println(wolk(20, 40));
+            System.out.println(wolk(21, 40));
             System.out.println(wolk(13, 15));
             System.out.println(wolk(18, 36));
             System.out.println(wolk(45, 29));
-            System.out.println(wolk(25, 27));
+            System.out.println(wolk(14, 29));
+            System.out.println(wolk(generateRandomAge(),29));
             System.out.println(generateRandomAge());
 
     }
